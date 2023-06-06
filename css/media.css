@@ -1,0 +1,355 @@
+@media (max-width:448px) {
+
+    .header {
+        width: 98vw;
+        height: 10vh;
+    }
+    .nav-item-link {
+        font-size: calc(var(--text-size) * 0.60);
+        padding: 1.5vh 3vw;
+    }
+    .find-place {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .find-place-contentblock {
+        width: 100%;
+        transform: translateX(0);
+        align-items: center;
+    }
+    .find-place-contentblock-title , .find-place-contentblock-title span{
+        transform: translateX(0);
+        text-align: center;
+    }
+    .find-place-contentblock-subtitle {
+        transform: translateX(0);
+        text-align: center;
+    }
+    .find-place-contentblock-searchform{
+        transform: translateX(0);
+        padding: 0.5vh;
+    }
+    .find-place-contentblock-searchform-button{
+        padding: 1.5vh 5vw;
+    }
+    .find-place-contentblock-partners{
+        transform: translateX(0);
+        text-align: center;
+    }
+    .find-place-contentblock-partners-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5vw;
+    }
+    .find-place-contentblock-partners-list a{
+        width: 100%;
+    }
+    .find-place-banner{ 
+        height: 50vh;
+        transform: translateY(-20%);
+        background-position:0 calc(var(--paralax) / -4);
+    }
+    .find-place-bannerblock {
+        width: 100%;
+        height: 30vh;
+    }
+    .find-place-bannerblock-about{
+        display: none;
+    }
+
+
+
+    .houses{
+        align-items: center;
+    }
+    .houses-subtitle{
+        flex-direction: column;
+    }
+    .houses-subtitle span{
+        width: 100vw;
+        margin: 3vh 0;
+    }
+    .houses-subtitle{
+        text-align: center;
+    }
+    .houses-head-navigate {
+        flex-direction: column;
+        gap: 2vh;
+    }
+    .houses-head-navigate-chapterbuttons {
+        gap: 2vw;
+    }
+    .houses-head-navigate-chapterbuttons-button{
+        padding: 1.5vh 8vw;
+        text-align: center;
+        justify-content: space-around;
+        gap: 2vw;
+    }
+    .houses-head-navigate-chapterbuttons-button img{
+        width: 50%;
+    }
+    .houses-head-navigate-sliderbuttons {
+        gap: 2vw;
+        display: none;
+    }
+    .houses-head-navigate-sliderbuttons-button {
+        padding: 1.5vh 10vw;
+    }
+    .houses-slider {
+        gap:10vw;
+        overflow: auto;
+        scroll-snap-type: x mandatory;
+    }
+    .houses-slider-slide{
+        scroll-snap-align: center;
+    }
+    .houses-slider-slide:first-child{
+        margin-left: 35%;
+    }
+    .houses-slider-slide:last-child{
+        margin-right: 35%;
+    }
+    .houses-slider-slide-image {
+        height: 30vh;
+        width: 60vw;
+    }
+    .houses-slider-slide-image-status {
+        margin-bottom: 1vh;
+        margin-left: 1vh;
+        gap: 2vw;
+        padding: 1vh 3vw;
+        border-radius: 5vw;
+    }
+    .houses-slider-slide-description-owner-avatar {
+        width: 5vw;
+        height: 5vw;
+    }
+    .houses-slider-slide-description-owner-about-location {
+        white-space: normal;
+    }
+
+
+    .sell {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2vh;
+    }
+    .sell-textbloke {
+        width: 100%;
+    }
+    .sell-textbloke-container{
+        align-items: center;
+        width: 100%;
+    }
+    .sell-textbloke-title{
+        text-align: center;
+    }
+    .sell-textbloke-contact{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sell-tectbloke-contact-about-name , .sell-tectbloke-contact-about-profetion{
+        text-align: center;
+    }
+    .sell-textbloke-contact-button{
+        margin-top: 2vh;
+        padding: 2vh 10vw;
+    }
+    .sell-imageblock{
+        width: 100%;
+        padding: 0;
+    }
+    .sell-imageblock-img {
+        width: 80%;
+        margin: auto;
+    }
+    .sell-imageblock-box{
+        height: 0%;
+        transform: translateX(-20%) translateY(-80%);
+    }
+
+
+
+    .rewives-slider {
+        overflow: visible;
+        overflow-x: auto;
+        margin: 0;
+        width: 100vw;
+        height: 40vh;
+        scroll-snap-type: x mandatory;
+        align-items: start;
+        justify-content: flex-start;
+        gap: 2vw;
+    }
+    .rewives-slider-slide {
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .rewives-slider-slide-content{
+        width: 98vw;
+        height: 30vh;
+        scroll-snap-align: center;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .rewives-sliderbuttons{
+        display: none;
+    }
+    .moreabout {
+        margin-top: 0vh;
+    }
+    .moreabout-morebutton {
+        padding: 2vh 4vw;
+    }
+    .moreabout-container{
+        width: 95%;
+        margin-top: 5vh;
+        flex-direction: column-reverse;
+        align-items: start;
+        gap: 3vh;
+    }
+    .moreabout-smartblocks {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 3vh;
+    }
+    .moreabout-smartblocks-block {
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    }
+    .moreabout-smartblocks-block-img {
+        width: 60%;
+    }
+    .moreabout-smartblocks-block-content {
+        gap: 1vh;
+    }
+    .moreabout-fullblocks {
+        width: 100%;
+    }
+    .moreabout-fullblocks-block-img {
+        height: 20vh;
+    }
+
+
+    .subscribebanner {
+        margin-top: 0vh;
+        width: 100%;
+        height: 50vh;
+    }
+    .subscribebanner-container {
+        border-radius: 0vw;
+        gap: 2vh;
+    }
+    .subscribebanner-form {
+        padding: 0.5vw 0.5vw;
+        gap: 3vw;
+    }
+    .subscribebanner-form-button {
+        border-radius: 100vw;
+        padding: 2vh 5vw;
+    }
+    .subscribebanner-designitem{
+        position: absolute;
+        user-select: none;
+    }
+
+    .subscribebanner-designitem-1{
+        left: 5vw;
+        transform: translateY(-15vh);
+        width: 8vw;
+    }
+    .subscribebanner-designitem-2{
+        left: 2.5vw;
+        transform: translateY(5vh);
+        width: 8vw;
+    }
+    .subscribebanner-designitem-3{
+        right: 10vw;
+        transform: translateY(-15vh);
+        width: 8vw;
+    }
+    .subscribebanner-designitem-4{
+        right: 2.5vw;
+        transform: translateY(5vh);
+        width: 8vw;
+    }
+    .subscribebanner-designitem-5{
+        left: 5vw;
+        transform: translateY(-5vh);
+        width: 12vw;
+    }
+    .subscribebanner-designitem-6{
+        left: 10vw;
+        transform: translateY(-10vh);
+        width: 12vw;
+    }
+    .subscribebanner-designitem-7{
+        right: 9vw;
+        transform: translateY(-2vh);
+        width: 12vw;
+    }
+    .subscribebanner-designitem-8{
+        right: 5vw;
+        transform: translateY(-8vh);
+        width: 12vw;
+    }
+
+
+
+    .footer {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        width: 100%;
+    }
+    .footer-container{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2vh;
+    }
+    .footer-info {
+        align-items: center;
+        gap: 2vh;
+    }
+    .foote-info-text {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-info-social {
+        gap: 5vw;
+    }
+    .footer-info-social-link img {
+        width: calc(var(--text-size) * 1.5);
+        height: calc(var(--text-size) * 1.5);
+    }
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 2vh;
+    }
+    .footer-links-block {
+        align-items: center;
+        gap: 2vh;
+    }
+    .footer-links-block-title {
+        font-size: calc(var(--text-size) * 1);
+        text-align: center;
+    }
+    .footer-links-block-list {
+        align-items: center;
+        text-align: center;
+        gap: 2vh;
+    }
+}
